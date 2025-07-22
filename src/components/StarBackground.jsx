@@ -20,7 +20,7 @@ const [meteors, setMeteors] = useState([]);
   }, []);
 
   const generateStars = () => {
-    const numberOfStars = Math.floor((window.innerWidth * window.innerHeight) / 1000);
+    const numberOfStars = Math.floor((window.innerWidth * window.innerHeight) / 1);
     const newStars = [];
     for (let i = 0; i < numberOfStars; i++) {
       newStars.push({
@@ -32,19 +32,19 @@ const [meteors, setMeteors] = useState([]);
         animationDuration: Math.random() * 4 + 2,
       });
     }
-    setStars(newStars);
+    // setStars(newStars);
   };
  const generatemeteors = () => {
-    const numberOfMeteors = 4;
+    const numberOfMeteors = 0 // Random number of meteors between 5 and 10
     const newMeteors = [];
     for (let i = 0; i < numberOfMeteors; i++) {
       newMeteors.push({
         id: i,
         size: Math.random() * 2 + 1,
-        x: Math.random() * 100,
+        x: Math.random() * 70,
         y: Math.random() * 20,
         delay: Math.random() * 0.5 + 0.5,
-        animationDuration: Math.random() * 3 + 3,
+        animationDuration: Math.random() * 4 + 2,
       });
     }
     setMeteors(newMeteors);

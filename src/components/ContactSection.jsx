@@ -1,4 +1,5 @@
-import { Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitter } from "lucide-react";
+import { Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitter, } from "lucide-react";
+import { Laptop2 as LeetcodeIcon } from "lucide-react";
 import { cn } from "@/lib/util";
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -15,12 +16,15 @@ export const ContactSection = () => {
     }, 1500);
 };
   return (
-<section id="contact" className="scroll-mt-24 py-24 px-4 relative bg-secondry/30">
+<section id="contact" className="py-12 px-4 relative bg-secondary/30 rounded-xl shadow-[0_0_30px_rgba(255,255,255,0.2)] ring-1 ring-white/10">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-                    Get In <span className="text-primary">Touch</span>
+                    <h2 className="text-3xl md:text-4xl font-bold text-center text-white drop-shadow-[0_0_10px_rgba(59,130,246,0.4)] mb-2">
+  Get In <span className="text-primary drop-shadow-[0_0_10px_rgba(59,130,246,0.7)]">Touch</span>
+</h2>
+
                 </h2>
-                <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+                <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
                     If you have any inquiries or would like to collaborate on a project, please don't hesitate to reach out.
                     I'm always open to new opportunities and discussions.
                 </p>
@@ -36,8 +40,8 @@ export const ContactSection = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-medium">Email</h4>
-                                    <a href="mailto:hello@me.com" className="text-muted-foreground hover:text-primary transition-colors">
-                                        hello@me.com
+                                    <a href="mailto:sh.vaibhav494@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                                        sh.vaibhav494@gmail.com
                                     </a>
                                 </div>
                             </div>
@@ -47,8 +51,8 @@ export const ContactSection = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-medium">Phone</h4>
-                                    <a href="tel:1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                                        +123 456 7890
+                                    <a href="tel:8382930869" className="text-muted-foreground hover:text-primary transition-colors">
+                                        +838 293 0869
                                     </a>
                                 </div>
                             </div>
@@ -68,11 +72,12 @@ export const ContactSection = () => {
                         <div className="pt-8">
                             <h4 className="font-medium mb-4">Connect With Me</h4>
                             <div className="flex items-center space-x-4">
-                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/vaibhav-sharma-53a091292/" target="_blank" rel="noopener noreferrer">
                                     <Linkedin />
                                 </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <Instagram />
+                                <a href="https://leetcode.com/u/vaibhavsh99/" target="_blank" rel="noopener noreferrer">
+                                
+                                <LeetcodeIcon className="w-6 h-6 text-primary"/>
                                 </a>
                                 <a href="#" target="_blank" rel="noopener noreferrer">
                                     <Twitter />

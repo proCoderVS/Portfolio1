@@ -22,10 +22,10 @@ export const SkillsSection = () => {
   );
 
   return (
-    <section id="skills" className="py-12 px-4 relative bg-secondary/30">
+    <section id="skills" className="py-12 px-4 relative bg-secondary/30 rounded-xl shadow-[0_0_30px_rgba(255,255,255,0.2)] ring-1 ring-white/10">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          My <span className="text-primary">Skills</span>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-white drop-shadow-[0_0_10px_rgba(59,130,246,0.4)]">
+          My <span className="text-primary drop-shadow-[0_0_10px_rgba(59,130,246,0.7)]">Skills</span>
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
