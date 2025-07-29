@@ -13,14 +13,14 @@ const projects = [
     githubUrl: "https://github.com/PrashantShukla7/Hospital-management",
   },
   {
-    id: 2,
-    title: "NewsWeb",
+    id: 3,
+    title: "Sensai(AI Career Coach)",
     description:
-      "A dynamic news web app using ReactJS. Integrated category-wise filters and news from various sources with a responsive UI.",
-    image: "/projects/project2.png",
-    tags: ["Frontend"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/proCoderVS/News-Web",
+      "Just built a Full Stack AI Career Coach — a cutting-edge project designed to empower users with personalized career insights, AI-powered resume building, and mock interviews! ",
+    image: "/projects/project4.png",
+    tags: ["FullStack, AI, NextJS"],
+    demoUrl: "https://sensai1-psi.vercel.app/", // Update when deployed
+    githubUrl: "https://github.com/proCoderVS/sensai1",
   },
   {
     id: 3,
@@ -32,6 +32,17 @@ const projects = [
     demoUrl: "#", // Update when deployed
     githubUrl: "https://github.com/PrashantShukla7/lyriqon",
   },
+  {
+    id: 2,
+    title: "NewsWeb",
+    description:
+      "A dynamic news web app using ReactJS. Integrated category-wise filters and news from various sources with a responsive UI.",
+    image: "/projects/project2.png",
+    tags: ["Frontend"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/proCoderVS/News-Web",
+  },
+  
 ];
 
 export const ProjectsSection = () => {
