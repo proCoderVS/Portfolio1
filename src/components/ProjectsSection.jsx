@@ -13,17 +13,27 @@ const projects = [
     githubUrl: "https://github.com/PrashantShukla7/Hospital-management",
   },
   {
-    id: 3,
+    id: 2,
     title: "Sensai(AI Career Coach)",
     description:
       "Just built a Full Stack AI Career Coach — a cutting-edge project designed to empower users with personalized career insights, AI-powered resume building, and mock interviews! ",
     image: "/projects/project4.png",
-    tags: ["FullStack, AI, NextJS"],
+    tags: ["AI, NextJS"],
     demoUrl: "https://sensai1-psi.vercel.app/", // Update when deployed
     githubUrl: "https://github.com/proCoderVS/sensai1",
   },
   {
     id: 3,
+    title: "VStream(Real-time Video Calling Chat App.)",
+    description:
+      "Developed a fully functional MERN stack chat application with real-time messaging and peer-to-peer video calling. ",
+    image: "/projects/project5.png",
+    tags: ["MERN"],
+    demoUrl: "https://vstream-r7re.onrender.com/", // Update when deployed
+    githubUrl: "https://github.com/proCoderVS/VStream",
+  },
+  {
+    id: 4,
     title: "VE-quest (EV Charging Finder)",
     description:
       "Frontend for an EV Charging Website. Features real-time EV station tracking, shortest & traffic-free route suggestions.",
@@ -33,7 +43,7 @@ const projects = [
     githubUrl: "https://github.com/PrashantShukla7/lyriqon",
   },
   {
-    id: 2,
+    id: 5,
     title: "NewsWeb",
     description:
       "A dynamic news web app using ReactJS. Integrated category-wise filters and news from various sources with a responsive UI.",
